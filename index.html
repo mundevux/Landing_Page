@@ -5,27 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./dist/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./dist/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
     <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/4a52963d39.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-['Roboto'] bg-slate-200">
-    <div class="relative md:flex md:justify-center">
-        <header id="header" class="container mx-auto md:flex md:justify-around fixed top-0 bg-slate-200 pt-2 md:pt-5">
+<body class="font-['Montserrat'] bg-[#fffffe]">
+    <div class="relative container mx-auto flex justify-center bg-[#fffffe]">
+        <header id="header" class="container mx-auto md:flex md:justify-evenly fixed top-0 bg-[#fffffe] pt-2 md:pt-5">
             <div class="flex justify-center">
                 <a href="#Home"><img id="header-img" src="./dist/img/product-landing-page-logo.png" alt="Logo" width="400"></a>
             </div>
              <div class="flex justify-center items-center mt-5 md:mt-0">
                 <nav id="nav-bar" class="flex justify-around md:flex md:justify-center pb-3">
-                    <div class="px-10">
+                    <div class="px-10 text-head-text font-extrabold">
                         <a class="nav-link" href="#About">About</a>
                     </div>
-                    <div class="px-10">
+                    <div class="px-10 text-head-text font-extrabold">
                         <a class="nav-link" href="#Products">Products</a>
                     </div>
-                    <div class="px-10">
+                    <div class="px-10 text-head-text font-extrabold">
                         <a class="nav-link" href="#Contact" >Contact</a>
                     </div>
                 </nav>
@@ -38,21 +39,21 @@
         <!--- Home Section -->
 
         <section id="About" class="">
-            <div>
-                <h1 class="text-center text-3xl font-semibold pb-4">Welcome to Landing Page</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ea officia. Ipsa modi facere eveniet sit doloribus molestias, officiis maiores voluptas aspernatur, illo, rem quae deleniti unde temporibus praesentium laboriosam.
+            <div class="px-5">
+                <h1 class="text-center text-3xl font-semibold pb-4 text-head-text">Welcome to Landing Page</h1>
+                <p class="text-paragraph font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ea officia. Ipsa modi facere eveniet sit doloribus molestias, officiis maiores voluptas aspernatur, illo, rem quae deleniti unde temporibus praesentium laboriosam.
                 Quo sed minima repellendus ratione hic quidem placeat, error beatae fuga? Ex commodi beatae id eligendi vel fugit, tenetur facere repudiandae ratione reiciendis exercitationem dicta. Neque expedita deleniti accusamus in!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, a officiis! Sunt, odio cupiditate maiores molestias nulla quaerat dolores. Voluptatum perferendis earum nihil corrupti error inventore non, accusantium sequi itaque?</p>
+                <p class="text-paragraph font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, a officiis! Sunt, odio cupiditate maiores molestias nulla quaerat dolores. Voluptatum perferendis earum nihil corrupti error inventore non, accusantium sequi itaque?</p>
             </div>          
         </section>
 
         <!--- Products Section -->
 
         <section id="Products" class="container mx-auto mb-16 md:columns-3">
-            <div class=" ">
+            <div class=" px-10 ">
                 <div class="py-5">
-                    <div class="border-solid border-slate-800 border-2 flex flex-col items-center rounded-lg">
-                        <h1 class="text-2xl font-semibold bg-slate-500 text-slate-50 w-full text-center">Product 1</h1>
+                    <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
+                        <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center">Product 1</h1>
                         <span class="py-2 text-xl">$900</span>
                         <ul class="py-2">
                             <li>Lorem ipsum</li>
@@ -60,13 +61,13 @@
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-slate-500 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-full shadow-lg shadow-slate-500/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-800/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
                 <div class="py-5">
-                    <div class="border-solid border-slate-800 border-2 flex flex-col items-center rounded-lg">
-                        <h1 class="text-2xl font-semibold bg-slate-500 text-slate-50 w-full text-center ">Product 2</h1>
+                    <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
+                        <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center ">Product 2</h1>
                         <span class="py-2 text-xl">$900</span>
                         <ul class="py-2">
                             <li>Lorem ipsum</li>
@@ -74,13 +75,13 @@
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-slate-500 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-full shadow-lg shadow-slate-500/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
                 <div class="py-5">
-                    <div class="border-solid border-slate-800 border-2 flex flex-col items-center rounded-lg">
-                        <h1 class="text-2xl font-semibold bg-slate-500 text-slate-50 w-full text-center">Product 3</h1>
+                    <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
+                        <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center">Product 3</h1>
                         <span class="py-2 text-xl">$900</span>
                         <ul class="py-2">
                             <li>Lorem ipsum</li>
@@ -88,7 +89,7 @@
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-slate-500 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-full shadow-lg shadow-slate-500/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -99,21 +100,21 @@
 
         <section id="Contact" class="mb-16 md:columns-2">
             <div class="flex justify-center items-center">
-                <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" id="video" height="315" width="" class="aspect-video" class="max-w-max" ></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" id="video" height="315" width=" 315" class="max-w-max w-full " ></iframe>
             </div>
             <div class="flex justify-center">
                 <div>
                     <div class="mt-8">
-                        <h1 class="text-center text-3xl font-semibold pb-4">Contact us</h1>
-                        <p class="mx-6 pb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ex eligendi. Quo perferendis aut id modi illum laboriosam obcaecati nesciunt vitae quod ad, laudantium repellendus voluptas blanditiis vel non dolore.</p>
+                        <h1 class="text-center text-3xl font-semibold pb-4 text-head-text">Contact us</h1>
+                        <p class="mx-6 pb-4 text-paragraph  font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ex eligendi. Quo perferendis aut id modi illum laboriosam obcaecati nesciunt vitae quod ad, laudantium repellendus voluptas blanditiis vel non dolore.</p>
                     </div>
                     <div>
                         <form action="https://www.freecodecamp.com/email-submit" id="form">
                             <div class="flex justify-center pb-4">
-                                <input type="email" name="email" id="email" placeholder="Enter your email" class="w-2/4 border-solid border-2 border-slate-500 shadow-lg shadow-slate-500/50 rounded-lg py-2 px-3 text-sm" required>
+                                <input type="email" name="email" id="email" placeholder="Enter your email" class="w-2/4 border-solid border-2 border-[#094067] shadow-lg shadow-slate-500/50 rounded-lg py-2 px-3 text-sm" required>
                             </div>
-                            <div class="flex justify-center py-4 text-slate-50">
-                                <input type="submit" id="submit" value="Get Started" class="rounded-lg shadow-lg shadow-slate-500/50 bg-slate-600 py-2 px-3">
+                            <div class="flex justify-center py-4 text-[#fffffe]">
+                                <input type="submit" id="submit" value="Get Started" class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-800/50">
                             </div>
                         </form>
                     </div>
@@ -121,8 +122,12 @@
             </div>
         </section>
     </main>
-    <footer>    
-
+    <footer class="h-20 bg-[#094067]">    
+        <div class="container mx-auto w-6/12 h-full flex items-center justify-around text-[#fffffe]">
+            <i class="fab fa-github-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
     </footer>
 </body>
 </html>

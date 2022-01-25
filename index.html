@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./dist/img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/output.css">
     <title>Landing Page</title>
     <script src="https://kit.fontawesome.com/4a52963d39.js" crossorigin="anonymous"></script>
@@ -15,18 +15,18 @@
 <body class="font-['Montserrat'] bg-[#fffffe]">
     <div class="relative container mx-auto flex justify-center bg-[#fffffe]">
         <header id="header" class="container mx-auto md:flex md:justify-evenly fixed top-0 pb-3 bg-[#fffffe] pt-2 md:pt-5 border-b-2 border-head-text">
-            <div class="flex justify-center">
-                <a href="#Home"><img id="header-img" src="./dist/img/product-landing-page-logo.png" alt="Logo" width="400"></a>
+            <div class="flex justify-center ">
+                <a href="#Home"><img id="header-img" src="./dist/img/product-landing-page-logo.png" alt="Logo" width="400" class="max-w-max "></a>
             </div>
              <div class="flex justify-center items-center mt-5 md:mt-0">
                 <nav id="nav-bar" class="flex justify-around md:flex md:justify-center pb-3 mx-6">
-                    <div class="px-10 text-head-text font-extrabold">
+                    <div class="px-10 text-head-text font-semibold">
                         <a class="nav-link" href="#About">About</a>
                     </div>
-                    <div class="px-10 text-head-text font-extrabold">
+                    <div class="px-10 text-head-text font-semibold">
                         <a class="nav-link" href="#Products">Products</a>
                     </div>
-                    <div class="px-10 text-head-text font-extrabold">
+                    <div class="px-10 text-head-text font-semibold">
                         <a class="nav-link" href="#Contact" >Contact</a>
                     </div>
                 </nav>
@@ -40,28 +40,29 @@
 
         <section id="About" class=" pb-12">
             <div class="px-5">
-                <h1 class="text-center text-3xl font-semibold pb-10 text-head-text">Welcome to Landing Page</h1>
-                <p class="text-paragraph font-semibold text-center pb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ea officia. Ipsa modi facere eveniet sit doloribus molestias, officiis maiores voluptas aspernatur, illo, rem quae deleniti unde temporibus praesentium laboriosam.
+                <h1 class="text-center text-3xl font-bold pb-10 text-head-text">Welcome to Landing Page</h1>
+                <p class="text-paragraph font-normal text-center pb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ea officia. Ipsa modi facere eveniet sit doloribus molestias, officiis maiores voluptas aspernatur, illo, rem quae deleniti unde temporibus praesentium laboriosam.
                 Quo sed minima repellendus ratione hic quidem placeat, error beatae fuga? Ex commodi beatae id eligendi vel fugit, tenetur facere repudiandae ratione reiciendis exercitationem dicta. Neque expedita deleniti accusamus in!</p>
-                <p class="text-paragraph font-semibold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, a officiis! Sunt, odio cupiditate maiores molestias nulla quaerat dolores. Voluptatum perferendis earum nihil corrupti error inventore non, accusantium sequi itaque?</p>
+                <p class="text-paragraph font-normal text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, a officiis! Sunt, odio cupiditate maiores molestias nulla quaerat dolores. Voluptatum perferendis earum nihil corrupti error inventore non, accusantium sequi itaque?</p>
             </div>          
         </section>
 
         <!--- Products Section -->
 
-        <section id="Products" class="container mx-auto mb-16 md:columns-3">
-            <div class=" px-10 ">
+        <section id="Products" class="container mx-auto mb-16 ">
+            <h1 class="text-center text-3xl font-semibold pb-4 text-head-text">Products</h1>
+            <div class=" px-10 md:columns-3">
                 <div class="py-5">
                     <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
                         <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center">Product 1</h1>
                         <span class="py-2 text-xl">$900</span>
-                        <ul class="py-2">
+                        <ul class="py-2 text-base">
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-800/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-semibold py-2 px-4 rounded-lg shadow-lg shadow-sky-800/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -69,13 +70,13 @@
                     <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
                         <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center ">Product 2</h1>
                         <span class="py-2 text-xl">$900</span>
-                        <ul class="py-2">
+                        <ul class="py-2 text-base">
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-semibold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -83,13 +84,13 @@
                     <div class="border-solid border-[#094067] border-2 flex flex-col items-center rounded-lg">
                         <h1 class="text-2xl font-semibold bg-[#094067] text-[#fffffe] w-full text-center">Product 3</h1>
                         <span class="py-2 text-xl">$900</span>
-                        <ul class="py-2">
+                        <ul class="py-2 text-base">
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                             <li>Lorem ipsum</li>
                         </ul>
                         <div  class="pt-2 pb-5">
-                            <button class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
+                            <button class="bg-[#3da9fc] text-[#fffffe] font-semibold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -106,7 +107,7 @@
                 <div>
                     <div class="mt-8">
                         <h1 class="text-center text-3xl font-semibold pb-4 text-head-text">Contact us</h1>
-                        <p class="mx-6 pb-4 text-paragraph  font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ex eligendi. Quo perferendis aut id modi illum laboriosam obcaecati nesciunt vitae quod ad, laudantium repellendus voluptas blanditiis vel non dolore.</p>
+                        <p class="mx-6 pb-4 text-paragraph font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, ex eligendi. Quo perferendis aut id modi illum laboriosam obcaecati nesciunt vitae quod ad, laudantium repellendus voluptas blanditiis vel non dolore.</p>
                     </div>
                     <div>
                         <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -114,7 +115,7 @@
                                 <input type="email" name="email" id="email" placeholder="Enter your email" class="w-2/4 border-solid border-2 border-[#094067] shadow-lg shadow-slate-500/50 rounded-lg py-2 px-3 text-sm" required>
                             </div>
                             <div class="flex justify-center py-4 text-[#fffffe]">
-                                <input type="submit" id="submit" value="Get Started" class="bg-[#3da9fc] text-[#fffffe] font-bold py-2 px-4 rounded-lg shadow-lg shadow-sky-800/50">
+                                <input type="submit" id="submit" value="Get Started" class="bg-[#3da9fc] text-[#fffffe] font-semibold py-2 px-4 rounded-lg shadow-lg shadow-sky-400/50">
                             </div>
                         </form>
                     </div>
